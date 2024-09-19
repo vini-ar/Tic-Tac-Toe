@@ -9,22 +9,23 @@
 </head>
 <body>
     <div class="container">
-        <h1>Tic Tac Toe</h1>
+        <div class="gameboard-info">
+            <h1>Tic Tac Toe</h1>
+            <span id="display-player-turn"></span>
+        </div>
         <div class="gameboard">
-            <div class="square square-1"><button class="square-btn" id="square-1-btn">x</button></div>
-            <div class="square square-2"><button class="square-btn" id="square-2-btn">x</button></div>
-            <div class="square square-3"><button class="square-btn" id="square-3-btn">x</button></div>
-            <div class="square square-4"><button class="square-btn" id="square-4-btn">x</button></div>
-            <div class="square square-5"><button class="square-btn" id="square-5-btn">x</button></div>
-            <div class="square square-6"><button class="square-btn" id="square-6-btn">x</button></div>
-            <div class="square square-7"><button class="square-btn" id="square-7-btn">x</button></div>
-            <div class="square square-8"><button class="square-btn" id="square-8-btn">x</button></div>
-            <div class="square square-9"><button class="square-btn" id="square-9-btn">x</button></div>
-
+            <div class="square-container square-1"><button class="square-btn" id="square-1-btn" value="1"></button></div>
+            <div class="square-container square-2"><button class="square-btn" id="square-2-btn" value="2"></button></div>
+            <div class="square-container square-3"><button class="square-btn" id="square-3-btn" value="3"></button></div>
+            <div class="square-container square-4"><button class="square-btn" id="square-4-btn" value="4"></button></div>
+            <div class="square-container square-5"><button class="square-btn" id="square-5-btn" value="5"></button></div>
+            <div class="square-container square-6"><button class="square-btn" id="square-6-btn" value="6"></button></div>
+            <div class="square-container square-7"><button class="square-btn" id="square-7-btn" value="7"></button></div>
+            <div class="square-container square-8"><button class="square-btn" id="square-8-btn" value="8"></button></div>
+            <div class="square-container square-9"><button class="square-btn" id="square-9-btn" value="9"></button></div>
         </div>
         <div class="gameboard-features">
-            <button class="restart-game-btn">Restart Game</button>
-            <button class="start-game-btn">Start Game</button>
+            <button id="start-game-btn">Start Game</button>
         </div>
     </div>
 </body>
